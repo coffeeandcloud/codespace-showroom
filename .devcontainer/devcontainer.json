@@ -2,9 +2,6 @@
 	"image": "mcr.microsoft.com/devcontainers/universal:2",
 	"features": {
 		"ghcr.io/devcontainers/features/aws-cli:1": {},
-		"ghcr.io/devcontainers-contrib/features/bash-command:1": {
-			"command": "conda create -n showroom python=3.10 -y && conda activate showroom && conda install jupyter pandas tensorflow -y"
-		},
 		"ghcr.io/devcontainers-contrib/features/poetry:2": {}
 	}
 }
